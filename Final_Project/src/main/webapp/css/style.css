@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.login-form {
+	width: 400px;
+	margin: 10vh auto;
+}
+.login-form h1 {
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.int-area {
+	width: 400px; 
+	position: relative;
+	margin: 20px;
+}
+.int-area input{
+	width: 100%;
+	padding: 20px 10px 10px;
+	border: none;
+	border-bottom: 1px solid #999;
+	font-size: 20px;
+	outline: none;
+}
+.btn-area {
+	margin-top: 60px;
+}
+.btn-area button {
+	width: 100%; height: 40px;
+	background: #ffc107;
+	font-size: 20px;
+	border: none;
+	border-radius: 0.25rem;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.question h5{
+	font-size: 16px;
+}
+textarea {
+	color: gray;
+}
+p {
+	font-size: 12px;
+}
+a {
+	margin-right: 40px;
+	text-decoration: none;
+}
