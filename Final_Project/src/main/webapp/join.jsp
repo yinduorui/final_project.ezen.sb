@@ -12,12 +12,12 @@
 
 <div class="login-form">
 	<h2>회원가입</h2>
-	<form action="login.do" method="post" name="frm">
+	<form action="addMember.jsp" method="post" name="frm">
 		<div class="int-area">
 			<input type="text" name="userid" placeholder="아이디" required/>
 			</div>
 		<div class="int-area">
-			<input type="text" name="name" placeholder="넥네임" required/>
+			<input type="text" name="name" placeholder="닉네임" required/>
 		</div>
 		<div class="int-area">
 			<input type="password" name="pwd" placeholder="비밀번호" required/>
@@ -31,7 +31,7 @@
 	</form>
 	
 	<div class="btn-area">
-		<button type="submit" value="가입하기" onclick="">가입하기</button>
+		<button type="submit" value="가입하기">가입하기</button>
 	</div>
 </div>
 </body>
