@@ -9,9 +9,8 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div class="login_header">
-<img src="img/logo.png" alt="logo" style="width: 20%; margin: 2vh 40%;">
-</div>
+<jsp:include page="login_header.jsp"/>
+
 <div class="agree_form">
 <h2>회원가입</h2>
 <p class="guide_txt2" style="padding-top: 30px;">

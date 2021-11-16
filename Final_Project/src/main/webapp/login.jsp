@@ -8,10 +8,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
-<div class="login_header">
-<img src="img/logo.png" alt="logo" style="width: 20%; margin: 2vh 40%;">
-</div>
+<jsp:include page="login_header.jsp"/>
 
 <div class="login-form">
 	<h1>로그인</h1>
