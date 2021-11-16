@@ -12,7 +12,7 @@
 <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div>
-      <span>
+      <span class="introduce">
       	<p>대표 : 가나다 / E : help@help_kitchen.com / F : 02) 111-2222</p>
 		<p>서울 가동 111-22 가나다타워 </p>
 		<p>문의전화(운영시간 평일 10:00~18:00)</p>

@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+.login_header {
+	height: 20vh;
+}
 .login-form {
 	width: 400px;
 	margin: 10vh auto;
@@ -15,7 +17,7 @@
 	margin: 20px;
 }
 .int-area input{
-	width: 100%;
+	width: 80%;
 	padding: 20px 10px 10px;
 	border: none;
 	border-bottom: 1px solid #999;
@@ -37,13 +39,36 @@
 .question h5{
 	font-size: 16px;
 }
-textarea {
+.message {
 	color: gray;
 }
-p {
+.introduce p {
 	font-size: 12px;
 }
-a {
-	margin-right: 40px;
-	text-decoration: none;
+.agree_form {
+	margin: 5vh auto;
+	width: 500px;
+}
+.agree_form h2,
+.login-form h2 {
+	text-align: center;
+}
+.agree_form textarea {
+	font-size: 15px;
+}
+.agree {
+	width: 200px; 
+	height: 40px;
+	margin: 10px 20px;
+	background: #ffc107;
+	font-size: 20px;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+.checkMsg {
+	margin-top: 10px; 
+	text-align: center; 
+	color: #FF0000; 
+	display: none;
 }
