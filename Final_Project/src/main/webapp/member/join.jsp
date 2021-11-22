@@ -5,14 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <jsp:include page="login_header.jsp"/>
 
 <div class="login-form">
 	<h2>회원가입</h2>
-	<form action="addMember.jsp" method="post" name="frm">
+	<form action="" method="post" name="">
 		<div class="int-area">
 			<input type="text" name="userid" placeholder="아이디" required/>
 			</div>
@@ -21,9 +21,6 @@
 		</div>
 		<div class="int-area">
 			<input type="password" name="pwd" placeholder="비밀번호" required/>
-		</div>
-		<div class="int-area">
-			<input type="password" name="pwd_check" placeholder="비밀번호 확인" required/>
 		</div>
 		<div class="int-area">
 			<input type="text" name="email" placeholder="이메일" required/>

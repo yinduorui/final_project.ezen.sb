@@ -9,5 +9,5 @@
 <body>
 <div class="login_header">
 <a href="#">
-<img src="img/logo.png" alt="logo" style="width: 20%; margin: 2vh 40%;"></a>
+<img src="../img/logo.png" alt="logo" style="width: 20%; margin: 2vh 40%;"></a>
 </div>
