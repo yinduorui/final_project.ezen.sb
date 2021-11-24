@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<jsp:include page="login_header.jsp"/>
+<jsp:include page="../include/login_header.jsp"/>
 
 <div class="agree_form">
 <h2>회원가입</h2>
@@ -421,10 +421,8 @@
       	<input type="checkbox" id="14yCheck" value="1">
 	</p>
       <p style="text-align: center;">
-      <button type="button" onclick="doAgreeCheck()"
-			class="agree">동의</button>
-      <button type="button" onclick="location.href='/index.html'"
-			class="agree" >비동의</button>
+      <button type="button" class="agree" onclick="location.href='login.jsp'">동의</button>
+      <button type="button" class="agree" onclick="location.href=" >비동의</button>
       </p>
       </div>
       </div>

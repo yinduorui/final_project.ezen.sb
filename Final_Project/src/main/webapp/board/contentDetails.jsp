@@ -14,8 +14,8 @@
 .previous {display: flex; justify-content: center;}
 </style>
 <body>
-<%@ include file="header.jsp"%>
-<%@ include file="nav.jsp"%>
+<%@ include file="../include/header.jsp"%>
+<%@ include file="../include/nav.jsp"%>
 
 <div class="details">
   <div class="row">
@@ -58,7 +58,7 @@
 	<button type="submit" value="이전으로" onclick="location.href=">이전으로</button>
 </div>
 
-<%@ include file="footer.jsp"%>
+<%@ include file="../include/footer.jsp"%>
 <script id="dsq-count-scr" src="//helpkitchen.disqus.com/count.js" async></script>
 </body>
 </html>

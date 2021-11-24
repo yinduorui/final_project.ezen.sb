@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<jsp:include page="login_header.jsp"/>
+<jsp:include page="../include/login_header.jsp"/>
 
 <div class="login-form">
 	<h2>회원가입</h2>
@@ -25,11 +25,11 @@
 		<div class="int-area">
 			<input type="text" name="email" placeholder="이메일" required/>
 		</div>
-	</form>
-	
 	<div class="btn-area">
 		<button type="submit" value="가입하기">가입하기</button>
 	</div>
+	</form>
+	
 </div>
 </body>
 </html>

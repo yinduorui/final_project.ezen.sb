@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <script type="text/javascript" src="../js/member.js"></script>
 </head>
-<jsp:include page="login_header.jsp"/>
+<jsp:include page="../include/login_header.jsp"/>
 
 <div class="login-form">
 	<h1>로그인</h1>
@@ -20,13 +20,13 @@
 		<div class="int-area">
 			<input type="password" name="pwd" placeholder="비밀번호">
 		</div>
-	</form>
-	
 	<div class="btn-area">
 		<button type="submit" value="로그인" onclick="return loginCheck()">로그인</button>
 		<button type="submit" value="회원가입" onclick="location.href=">회원가입</button>
 		<button type="submit" value="비밀번호 찾기" onclick="location.href=">비밀번호 찾기</button>
 	</div>
+	</form>
+	
 </div>
 </body>
 </html>
