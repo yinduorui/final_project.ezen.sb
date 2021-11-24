@@ -14,7 +14,7 @@
 		<h2>비밀번호 찾기</h2>
 		<form action="" method="post" name="">
 			<div class="int-area">
-				<input type="text" name="email" placeholder="이메일" required />
+				<input type="text" name="mEmail" placeholder="이메일" required />
 			</div>
 		<div class="btn-area">
 			<button type="submit" value="가입하기" onclick="">안내 메일 발송</button>

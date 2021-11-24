@@ -16,34 +16,29 @@
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
 				<li style="width: 100%;">
-					<a href="/recipe/6968668" class="common_sp_link" tabindex="-1">
 						<div>
-							<img src="https://recipe1.ezmember.co.kr/cache/recipe/2021/11/10/5ccc37a69c9545b647fdb855d46b95ee1.jpg" style="height: 147px;">
+							<img src="" alt="사진">
 						</div>
-						<div>깊은 감칠맛! 요리에 쓰이는 육수 만들기 8가지</div>
-					</a>
+						<div>타이틀 끌어오기</div>
 				</li>
 			</div>
 			<div class="swiper-slide">
 				<li style="width: 100%;">
-					<a href="/recipe/6966061" class="common_sp_link" tabindex="-1">
 						<div>
-							<img src="https://recipe1.ezmember.co.kr/cache/recipe/2021/01/08/73c331916767dd7b2ecf595803bda5481.jpg" style="height: 147px;">
+						<img src="" alt="사진">
 						</div>
 						<div>
-							<div>오늘 점심 뭐 먹지? 내맘대로 분식집 메뉴 10가지</div>
+							<div>타이틀 끌어오기</div>
 						</div>
-					</a>
 				</li>
 			</div>
 			<div class="swiper-slide">
 				<li style="width: 100%;">
-					<a href="/recipe/6966061" class="common_sp_link" tabindex="-1">
 						<div>
-							<img src="https://recipe1.ezmember.co.kr/cache/recipe/2021/01/08/73c331916767dd7b2ecf595803bda5481.jpg" style="height: 147px;">
+							<img src="" alt="사진">
 						</div>
 						<div>
-							<div>오늘 점심 뭐 먹지? 내맘대로 분식집 메뉴 10가지</div>
+							<div>타이틀 끌어오기</div>
 						</div>
 					</a>
 				</li>

@@ -14,16 +14,16 @@
 	<h2>회원가입</h2>
 	<form action="" method="post" name="">
 		<div class="int-area">
-			<input type="text" name="userid" placeholder="아이디" required/>
+			<input type="text" name="mId" placeholder="아이디" required/>
 			</div>
 		<div class="int-area">
-			<input type="text" name="name" placeholder="닉네임" required/>
+			<input type="text" name="mNickName" placeholder="닉네임" required/>
 		</div>
 		<div class="int-area">
-			<input type="password" name="pwd" placeholder="비밀번호" required/>
+			<input type="password" name="mPassword" placeholder="비밀번호" required/>
 		</div>
 		<div class="int-area">
-			<input type="text" name="email" placeholder="이메일" required/>
+			<input type="text" name="mEmail" placeholder="이메일" required/>
 		</div>
 	<div class="btn-area">
 		<button type="submit" value="가입하기">가입하기</button>
