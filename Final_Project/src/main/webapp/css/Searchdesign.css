@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.box {
+    border: 1px solid #bcbcbc;
+    height: 28px;
+    color: black;
+}
+
+input.btn {
+        border: none;
+        width: 64px;
+        height: 32px;
+        cursor: pointer;
+}

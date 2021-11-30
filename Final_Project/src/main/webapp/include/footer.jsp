@@ -25,7 +25,7 @@
           <h5>불편사항/개선사항/제휴문의</h5>
           <div class="d-flex w-100 gap-2">
             <textarea name="message" rows="5" cols="40" placeholder="메시지 남겨주세요:)"></textarea>
-            <button class="btn btn-primary" type="button">send</button>
+            <button class="btn btn-primary" type="submit">send</button>
           </div>
         </form>
     </div>
@@ -33,5 +33,7 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../js/main_swiper.js"></script>
 
 

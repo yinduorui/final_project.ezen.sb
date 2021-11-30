@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.row1 {
+	display: table-row;
+}
+
+.row2 {
+	display: table-row;
+}
+
+.row3 {
+	display: table-row;
+}
+
+.row4 {
+	display: table-row;
+}
+
+.row5 {
+	display: table-row;
+}
+
+.cell{
+	display: table-cell;
+	padding: 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+.cell col1{
+	border-rigth: 1px solid #DDD;
+}
+
+
+.col{
+	width: 30%;
+}
+
+.text{
+	font-size:30px;
+	color:red;
+}

@@ -1,54 +1,39 @@
 package com.helpkitchen.dto;
 
 public class MemberVO {
-	private String userid;
-	private String name;
-	private String pwd;
-	private String pwd_chk;
-	private String email;
-	private int admin;
-	
-	public String getUserid() {
-		return userid;
+	private int mNum;
+	private String mId;
+	private String mPassword;
+	private String mNickName;
+	private String mEmail;
+	public int getmNum() {
+		return mNum;
 	}
-	public void setUserid(String userid) {
-		this.userid = userid;
+	public void setmNum(int mNum) {
+		this.mNum = mNum;
 	}
-	public String getName() {
-		return name;
+	public String getmId() {
+		return mId;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setmId(String mId) {
+		this.mId = mId;
 	}
-	public String getPwd() {
-		return pwd;
+	public String getmPassword() {
+		return mPassword;
 	}
-	public void setPwd(String pwd) {
-		this.pwd = pwd;
+	public void setmPassword(String mPassword) {
+		this.mPassword = mPassword;
 	}
-	public String getPwd_chk() {
-		return pwd_chk;
+	public String getmNickName() {
+		return mNickName;
 	}
-	public void setPwd_chk(String pwd_chk) {
-		this.pwd_chk = pwd_chk;
+	public void setmNickName(String mNickName) {
+		this.mNickName = mNickName;
 	}
-	public String getEmail() {
-		return email;
+	public String getmEmail() {
+		return mEmail;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setmEmail(String mEmail) {
+		this.mEmail = mEmail;
 	}
-	public int getAdmin() {
-		return admin;
-	}
-	public void setAdmin(int admin) {
-		this.admin = admin;
-	}
-	
-	@Override
-	public String toString() {
-		return "MemberVO [userid=" + userid + ", name=" + name + ", pwd=" + pwd + ", pwd_chk=" + pwd_chk + ", email="
-				+ email + ", admin=" + admin + "]";
-	}
-	
 }

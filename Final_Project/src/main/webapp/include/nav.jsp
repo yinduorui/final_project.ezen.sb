@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Insert title here</title>
 <style>
 a {color: black;}
@@ -30,19 +31,19 @@ background-color: #ffc107;
     <div class="col">
     <ul class="nav justify-content-center">
       <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">메인</a>
+    <a class="nav-link active" aria-current="page" href="/">메인</a>
   </li></ul>
     </div>
     <div class="col">
     <ul class="nav justify-content-center">
         <li class="nav-item">
-    <a class="nav-link" href="#">분류</a>
+    <a class="nav-link" href="HelpkitchenServlet?command=help_categories">분류</a>
   </li></ul>
     </div>
     <div class="col">
     <ul class="nav justify-content-center">
         <li class="nav-item">
-    <a class="nav-link" href="#">랭킹</a>
+    <a class="nav-link" href="HelpkitchenServlet?command=help_Ranking">랭킹</a>
   </li></ul>
     </div>
     <div class="col">

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.btn {
+	font-size: 14px;
+	padding: 15px 30px;
+	background-color: rgb(255, 255, 128);
+	color: black;
+	border: rgb(255, 255, 128)0;
+	border-radius: 30px;
+}
+
+h2,h4{
+	font-family:verdana;
+	color:black;
+	font-weight:bold;
+	text-shadow: 4px gray;
+}
+
+.table{
+	width: 100%;
+	
+}
+
+.table tr{
+	padding: 10px;
+	
+}
+
+.table td{
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: gray;
+}
+
+.table input{
+	border:2px solid gray;
+}
+
+.table select{
+	width:100px;
+	padding:.3em.4em;
+	border: 1px solid gray;
+	font-family: inherit;
+	border-radius: 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.table textarea{
+	width:500px;
+	height:100px;
+	resize:none;
+	border:2px solid gray;
+	font-size:15px;
+}
+
+.tbox{
+	width:800px;
+	height:300px;
+	resize:none;
+	border:2px solid gray;
+	font-size:15px;
+}
+
+.tbox2{
+	width:800px;
+	height:300px;
+	resize:none;
+	border:2px solid gray;
+	font-size:15px;
+}
+
+.tbox3{
+	width:500px;
+	height:100px;
+	resize:none;
+	border:2px solid gray;
+	font-size:15px;
+}
+
+.tbox4{
+	width:500px;
+	height:100px;
+	resize:none;
+	border:2px solid gray;
+	font-size:15px;
+}
+
+.btn2{
+	font-size: 14px;
+	padding: 15px 30px;
+	background-color: rgb(255, 255, 128);
+	color: black;
+	border: rgb(255, 255, 128)0;
+	border-radius: 30px;
+}
+
+.btn3{
+	font-size: 14px;
+	padding: 15px 30px;
+	background-color: rgb(255, 255, 128);
+	color: black;
+	border: rgb(255, 255, 128)0;
+	border-radius: 30px;
+}
+
+.btn4{
+	font-size: 14px;
+	padding: 15px 30px;
+	background-color: rgb(255, 255, 128);
+	color: black;
+	border: rgb(255, 255, 128)0;
+	border-radius: 30px;
+}
