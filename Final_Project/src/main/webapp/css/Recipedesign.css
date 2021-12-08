@@ -1,53 +1,64 @@
 @charset "UTF-8";
-.btn {
-	font-size: 14px;
-	padding: 15px 30px;
-	background-color: rgb(255, 255, 128);
-	color: black;
-	border: rgb(255, 255, 128)0;
-	border-radius: 30px;
-}
 
-h2,h4{
+
+h2{
 	font-family:verdana;
 	color:black;
 	font-weight:bold;
 	text-shadow: 4px gray;
+	text-align: center;
 }
 
-.table{
-	width: 100%;
-	
-}
+/* .register_table {
+	width: 100%;	
+} */
 
-.table tr{
+.register_table tr{
 	padding: 10px;
 	
 }
 
-.table td{
+.register_table2 tr{
 	padding: 10px;
+	
+}
+
+.register_table td{
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: gray;
+	height: 100px;
+}
+
+.register_table2 td{
+	padding: 0.5em 0.5em;
 	font-size: 16px;
 	font-weight: bold;
 	color: gray;
 }
 
-.table input{
+
+.register_table input{
 	border:2px solid gray;
 }
 
-.table select{
+.register_table2 select{
 	width:100px;
 	padding:.3em.4em;
 	border: 1px solid gray;
 	font-family: inherit;
-	border-radius: 0px;
+	border-radius: 7px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 }
 
-.table textarea{
+.register_table2 select::-ms-expand {
+    display: none;
+}
+
+.register_table textarea{
 	width:500px;
 	height:100px;
 	resize:none;
@@ -55,61 +66,16 @@ h2,h4{
 	font-size:15px;
 }
 
-.tbox{
-	width:800px;
-	height:300px;
-	resize:none;
-	border:2px solid gray;
-	font-size:15px;
-}
-
-.tbox2{
-	width:800px;
-	height:300px;
-	resize:none;
-	border:2px solid gray;
-	font-size:15px;
-}
-
-.tbox3{
-	width:500px;
-	height:100px;
-	resize:none;
-	border:2px solid gray;
-	font-size:15px;
-}
-
-.tbox4{
-	width:500px;
-	height:100px;
-	resize:none;
-	border:2px solid gray;
-	font-size:15px;
-}
-
-.btn2{
+.register_btn{
 	font-size: 14px;
 	padding: 15px 30px;
-	background-color: rgb(255, 255, 128);
+	background-color: #ffc107;
 	color: black;
-	border: rgb(255, 255, 128)0;
-	border-radius: 30px;
+	border: #ffc107;
+	border-radius: 20px;
 }
 
-.btn3{
-	font-size: 14px;
-	padding: 15px 30px;
-	background-color: rgb(255, 255, 128);
-	color: black;
-	border: rgb(255, 255, 128)0;
-	border-radius: 30px;
-}
-
-.btn4{
-	font-size: 14px;
-	padding: 15px 30px;
-	background-color: rgb(255, 255, 128);
-	color: black;
-	border: rgb(255, 255, 128)0;
-	border-radius: 30px;
+.reciepe_category {
+	width: 18%;
+	margin: 0 3%;
 }

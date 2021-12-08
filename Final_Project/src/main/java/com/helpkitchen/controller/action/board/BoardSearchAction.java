@@ -1,4 +1,4 @@
-package com.helpkitchen.controller.action.help;
+package com.helpkitchen.controller.action.board;
 
 import java.io.IOException;
 import java.util.List;
@@ -12,17 +12,17 @@ import com.helpkitchen.controller.action.Action;
 import com.helpkitchen.dao.HelpkitchenDAO;
 import com.helpkitchen.dto.BoardVO;
 
-public class HelpKitchenMainAction implements Action {
+public class BoardSearchAction implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url = "/index/main.jsp";
+		String search = request.getParameter("search");
 		HelpkitchenDAO hDao = HelpkitchenDAO.getInstance();
-		List<BoardVO> boardList = hDao.selectAllBoards();
+		List<BoardVO> boardList = hDao.selectSearchBoards(search);
 		request.setAttribute("boardList", boardList);
-		
-		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/index/Categories.jsp");
 		dispatcher.forward(request, response);
-		
+
 	}
+
 }

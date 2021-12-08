@@ -1,9 +1,15 @@
 package com.helpkitchen.controller;
 
 import com.helpkitchen.controller.action.Action;
+import com.helpkitchen.controller.action.board.BoardDeleteAction;
+import com.helpkitchen.controller.action.board.BoardSearchAction;
+import com.helpkitchen.controller.action.board.BoardUpdateAction;
+import com.helpkitchen.controller.action.board.BoardUpdateFormAction;
 import com.helpkitchen.controller.action.board.BoardViewAction;
 import com.helpkitchen.controller.action.board.BoardWriteAction;
 import com.helpkitchen.controller.action.board.BoardWriteFormAction;
+import com.helpkitchen.controller.action.member.MemberEditPasswordAction;
+import com.helpkitchen.controller.action.member.MemberEditPasswordFormAction;
 import com.helpkitchen.controller.action.member.MemberFindPassAction;
 import com.helpkitchen.controller.action.member.MemberFindPassFormAction;
 import com.helpkitchen.controller.action.member.MemberJoinAction;
@@ -15,6 +21,7 @@ import com.helpkitchen.controller.action.member.MemberPolicyFormAction;
 import com.helpkitchen.controller.action.help.HelpKitchenCategoriesAction;
 import com.helpkitchen.controller.action.help.HelpKitchenMainAction;
 import com.helpkitchen.controller.action.help.HelpKitchenRankingAction;
+import com.helpkitchen.controller.action.help.HelpKitchenTagAction;
 
 public class ActionFactory {
 
@@ -36,8 +43,6 @@ public class ActionFactory {
 			action = new HelpKitchenCategoriesAction();
 		} else if (command.equals("help_Ranking")) {
 			action = new HelpKitchenRankingAction();
-		} else if (command.equals("member_login")) {
-			action = new MemberLoginAction();
 		} else if (command.equals("member_login_form")) {
 			action = new MemberLoginFormAction();
 		} else if (command.equals("member_login")) {
@@ -60,6 +65,20 @@ public class ActionFactory {
 			action = new BoardWriteAction();
 		} else if (command.equals("board_view")) {
 			action = new BoardViewAction();
+		} else if (command.equals("board_update_form")) {
+			action = new BoardUpdateFormAction();
+		} else if (command.equals("board_update")) {
+			action = new BoardUpdateAction();
+		} else if (command.equals("board_delete")) {
+			action = new BoardDeleteAction();
+		} else if (command.equals("member_edit_password")) {
+			action = new MemberEditPasswordAction();
+		} else if (command.equals("member_edit_password_form")) {
+			action = new MemberEditPasswordFormAction();
+		} else if (command.equals("board_search")) {
+			action = new BoardSearchAction();
+		} else if (command.equals("board_tag")) {
+			action = new HelpKitchenTagAction();
 		}
 		return action;
 	}

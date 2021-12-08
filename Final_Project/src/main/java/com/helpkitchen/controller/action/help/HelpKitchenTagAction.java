@@ -1,6 +1,7 @@
 package com.helpkitchen.controller.action.help;
 
 import java.io.IOException;
+import java.net.URLDecoder;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -12,17 +13,20 @@ import com.helpkitchen.controller.action.Action;
 import com.helpkitchen.dao.HelpkitchenDAO;
 import com.helpkitchen.dto.BoardVO;
 
-public class HelpKitchenMainAction implements Action {
+public class HelpKitchenTagAction implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url = "/index/main.jsp";
+		String url = "/index/Categories.jsp";
+		String bTag = URLDecoder.decode(request.getParameter("bTag"));
+		System.out.println(bTag);
 		HelpkitchenDAO hDao = HelpkitchenDAO.getInstance();
-		List<BoardVO> boardList = hDao.selectAllBoards();
+		List<BoardVO> boardList = hDao.selectBoardsbyTag(bTag);
 		request.setAttribute("boardList", boardList);
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request, response);
-		
+
 	}
+
 }

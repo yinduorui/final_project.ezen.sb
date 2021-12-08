@@ -22,8 +22,8 @@ public class MemberFindPassAction implements Action {
 		HelpkitchenDAO hDao = HelpkitchenDAO.getInstance();
 		int result = hDao.emailCheck(email);
 		if(result == -1) {
-			Mail.sendMail(email);
 			String password = RandomPassword.getRamdomPassword();
+			Mail.sendMail(email, password);
 			hDao.newPassword(password, email);
 			request.setAttribute("key", "success");
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/member/checkemail.jsp");
@@ -31,6 +31,7 @@ public class MemberFindPassAction implements Action {
 		}
 		if(result == 1) {
 			request.setAttribute("key", "fail");
+			System.out.println(result);
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/member/checkemail.jsp");
 			dispatcher.forward(request, response);
 		}

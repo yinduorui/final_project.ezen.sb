@@ -5,21 +5,27 @@ package com.helpkitchen.dto;
 public class BoardVO {
 	
 	private long bNum;
+	private String bId;
 	private String bNickName;
 	private String bTitle;
 	private String bContent;
 	private String bCredat;
-	private String bHashTag;
+	private String bTag;
 	private long bVote;
 	private long bViews;
-	private byte[] bImage;
-	
+	private String bImageUrl;
 	
 	public long getbNum() {
 		return bNum;
 	}
 	public void setbNum(long bNum) {
 		this.bNum = bNum;
+	}
+	public String getbId() {
+		return bId;
+	}
+	public void setbId(String bId) {
+		this.bId = bId;
 	}
 	public String getbNickName() {
 		return bNickName;
@@ -45,11 +51,11 @@ public class BoardVO {
 	public void setbCredat(String bCredat) {
 		this.bCredat = bCredat;
 	}
-	public String getbHashTag() {
-		return bHashTag;
+	public String getbTag() {
+		return bTag;
 	}
-	public void setbHashTag(String bHashTag) {
-		this.bHashTag = bHashTag;
+	public void setbTag(String bTag) {
+		this.bTag = bTag;
 	}
 	public long getbVote() {
 		return bVote;
@@ -63,12 +69,12 @@ public class BoardVO {
 	public void setbViews(long bViews) {
 		this.bViews = bViews;
 	}
-	public byte[] getbImage() {
-		return bImage;
+	public String getbImageUrl() {
+		return bImageUrl;
 	}
-	public void setbImage(byte[] bImage) {
-		this.bImage = bImage;
+	public void setbImageUrl(String bImageUrl) {
+		this.bImageUrl = bImageUrl;
 	}
 	
-
+	
 }

@@ -21,5 +21,5 @@ function selectAll(selectAll){
 </head>
 <body>
 <div class="login_header">
-<a href="/helpkitchen"><img src="../img/logo.png" alt="logo" style="width: 20%; margin: 2vh 40%;"></a>
+<a href="HelpkitchenServlet?command=help_main"><img src="../img/logo.png" alt="logo" style="width: 20%; margin: 2vh 40%;"></a>
 </div>

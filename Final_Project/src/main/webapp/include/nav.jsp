@@ -31,7 +31,7 @@ background-color: #ffc107;
     <div class="col">
     <ul class="nav justify-content-center">
       <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="/">메인</a>
+    <a class="nav-link active" aria-current="page" href="HelpkitchenServlet?command=help_main">메인</a>
   </li></ul>
     </div>
     <div class="col">

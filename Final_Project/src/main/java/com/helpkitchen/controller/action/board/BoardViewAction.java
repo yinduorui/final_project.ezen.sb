@@ -1,7 +1,6 @@
 package com.helpkitchen.controller.action.board;
 
 import java.io.IOException;
-import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,13 +16,13 @@ public class BoardViewAction implements Action {
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response)
 	throws ServletException, IOException{
-		String url = "board/boardList.jsp";
+		String url = "board/contentDetails.jsp";
 		
+		String bNum = request.getParameter("bNum");
 		HelpkitchenDAO hDao = HelpkitchenDAO.getInstance();
+		BoardVO bVo = hDao.selectOneBoardByNum(bNum);
 		
-		List<BoardVO> boardList = hDao.selectAllBoards();
-		
-		request.setAttribute("boardList", boardList);
+		request.setAttribute("bVo", bVo);
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request, response);

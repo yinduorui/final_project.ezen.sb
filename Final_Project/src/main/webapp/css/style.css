@@ -82,21 +82,15 @@ ul .nav justify-content-center {
 	background-color: red;
 }
 
+.btn-area3 button {
+	width: 100px; 
+	height: 40px; 
+	background: #ffc107; 
+	border: none; 
+	border-radius: 0.25rem;
+}
+
 /* swiper styles */
-html, body {
-	position: relative;
-	height: 100%;
-}
-
-body {
-	background: #eee;
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	color: #000;
-	margin: 0;
-	padding: 0;
-}
-
 html, body {
 	position: relative;
 	height: 100%;

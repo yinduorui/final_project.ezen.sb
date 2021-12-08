@@ -14,7 +14,9 @@ public class BoardWriteFormAction implements Action {
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response)
 	throws ServletException, IOException{
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/board/RecipeRegister.jsp");
+		String url = "/board/RecipeRegister.jsp";
+		
+		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request, response);
 	}
 }

@@ -19,8 +19,8 @@ import javax.mail.internet.MimeMultipart;
 
 public class Mail {
 	
-	public static void sendMail(String email) {
-		String pass = RandomPassword.getRamdomPassword();
+	public static void sendMail(String email, String pass) {
+		
 	
 		final String bodyEncoding = "UTF-8"; 
 
